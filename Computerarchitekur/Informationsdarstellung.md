@@ -116,20 +116,8 @@ Lsb... Least significant Byte
 Big endian => Bytes von links nach rechts (SPARC, IBM Mainframe)
 Little endian => Bytes rechts nach links (Intel, Vax, Alpha)
 
+![Big and Little endian](BigLittleEndian.png)
 
-|    |    Big endian     |
-|----|----|----|----|----|
-| 0  | 0  | 1  | 2  | 3  |
-| 4  | 4  | 5  | 6  | 7  |
-| 8  | 8  | 9  | 10 | 11 |
-| 12 | 12 | 13 | 14 | 15 |
-
-|    |   Little endian   |
-|----|----|----|----|----|
-| 0  | 0  | 1  | 2  | 3  |
-| 4  | 4  | 5  | 6  | 7  |
-| 8  | 8  | 9  | 10 | 11 |
-| 12 | 12 | 13 | 14 | 15 |
 
 ## Signal => Nachricht
 

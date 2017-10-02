@@ -1,7 +1,7 @@
 # Informatik
 
 Informatik kommt von den Worten "Informatik" und "Automatik".
-Es hadelt sich dabei um die automatisierte Informationsverarbeitung
+Es handelt sich dabei um die automatisierte Informationsverarbeitung
 
 ## Einsatzgebiete:
 
