@@ -125,3 +125,17 @@ Little endian => Bytes rechts nach links (Intel, Vax, Alpha)
 * diskrete Funktion (Integriert)
 * digitale Funktion (Gerundet)
 
+## Nyquist Bedingung
+
+Um die vom Signal f(t) enthaltene Information exakt wiedergeben zu koennen muss
+die Abtastrate nach folgender Formel gewaehlt werden.
+
+![Nyquist Formel](nyquist.png)
+
+Daher => die Abtastrate muss groesser sein als die doppelte maximale Frequenz
+die im Signal vorkommt
+
+## Quantisierung
+* irreversible Aenderung der Uersprunglichen Nachricht
+* Quantisierungsrauschen = Differenz zwishen dem Ursprungssignal und dem
+  Naeherungswert nach der Quantisierung
