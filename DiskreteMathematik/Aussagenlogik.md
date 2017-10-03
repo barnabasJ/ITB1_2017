@@ -89,8 +89,8 @@ p <-> q Genau dann wenn ich ein das Geld bekomme werde ich ein neues Auto kaufen
 
 ### "Hoechstens eine von beiden" (nand)
 
-p...  Die Fussgaengerampel ist gruen 
-q...  Die Fussgaengerampel ist rot
+p...  Die Fussgaengerampel ist gruen  
+q...  Die Fussgaengerampel ist rot  
 p nand q Die Fussgaengerampel ist hoechstens rot oder hoechstens gruen aber nicht beides.
 
 | p | q | p nand q |
@@ -102,8 +102,8 @@ p nand q Die Fussgaengerampel ist hoechstens rot oder hoechstens gruen aber nich
 
 ### "keines von beiden" (nor)
 
-p... Es ist kalt
-q... Es schneit
+p... Es ist kalt  
+q... Es schneit  
 p nor q Es ist nicht kalt und es schneit nicht
 
 | p | q | p nor q |
