@@ -1,7 +1,12 @@
 # Aufgabe 1
 
 ![Flussdiagramm](./ggtFd.png)
+
+<div style="page-break-after: always;"></div>
+
 ![Strucktogramm](./ggtSg.jpg)
+
+<div style="page-break-after: always;"></div>
 
 ## Test 1
 
@@ -23,6 +28,8 @@
 | 13 | 8 | 0 | 2 ||
 | 14 | 2 | 0 | 2 ||
 | 15 | 2 | 0 | 2 | 2 |
+
+<div style="page-break-after: always;"></div>
 
 ## Test 2
 
@@ -46,6 +53,8 @@
 |---|---|---|---|---|
 | 0 | 0 | 5  |||
 | 1 | 0 | 5 ||-1|
+
+<div style="page-break-after: always;"></div>
 
 # Aufgabe 2
 ```
@@ -72,6 +81,8 @@ end
 |---|---|---|
 | 0 | 2012 |  |
 | 1 | 2012 | true |
+
+<div style="page-break-after: always;"></div>
 
 # Aufgabe 3
 
@@ -127,30 +138,6 @@ lastCoinWins(OUT player)
 end lastCoinWins
 ```
 
-| Schritt | coins[0] | coins[1] | coins[2] | player | row | ncoins | isGameOver | isRowValid | isNrCoinsValid|
-|---|---|---|---|---|---|---|---|---|---|
-|0| 3 | 4 | 5 | 1 | | | false | | |
-|1|3|4|5|1|||false|false|false|
-|2|3|4|5|1|4||false|false|false|
-|4|3|4|5|1|0||false|false|false|
-|5|3|4|5|1|1||false|false|false|
-|6|3|4|5|1|1||false|true|false|
-|7|3|4|5|1|1|6|false|true|false|
-|8|3|4|5|1|1|0|false|true|false|
-|9|3|4|5|1|1|5|false|true|false|
-|10|3|4|5|1|1|5|false|true|true|
-|11|3|4|0|1|1|5|false|true|true|
-|12|3|4|0|2|1|5|false|true|true|
-|13|3|4|0|2|1|5|false|false|false|
-|14|3|4|0|2|2|5|false|false|false|
-|15|3|4|0|2|2|5|false|true|false|
-|16|3|4|0|2|2|4|false|true|false|
-|16|3|4|0|2|2|4|false|true|true|
-|17|3|0|0|2|2|4|false|true|true|
-|18|3|0|0|1|2|4|false|false|false|
-|19|3|0|0|1|3|4|false|false|false|
-|20|3|0|0|1|3|4|false|true|false|
-|21|3|0|0|1|3|3|false|true|false|
-|22|3|0|0|1|3|3|false|true|true|
-|23|0|0|0|1|3|3|false|true|true|
-|24|0|0|0|1|3|3|true|true|true|
+<div style="page-break-after: always;"></div>
+
+![Test Nimm Spiel](./nimmTest.png)
