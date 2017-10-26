@@ -1,0 +1,425 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{fixltx2e} % provides \textsubscript
+\usepackage{eurosym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{longtable,booktabs}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\DeclareUnicodeCharacter{263A}{:)}
+\date{}
+
+\begin{document}
+
+Barnabas Jovanovics
+
+\subsection{1a) Latin-1 'C'}\label{a-14}
+
+'A' = $65_{10}$ 'C'=$67_{10} = 64 + 2 + 1 = 01000011_{2}$\\
+
+\_\_0\_100\_0 0 1 1\\
+123456789101112
+
+\begin{longtable}[l]{@{}llllllllllll@{}}
+	\toprule
+	 & &0& &1&0&0& &0& 0& 1& 1\\
+	1&2&3&4&5&6&7&8&9&10&11&12\\
+	\midrule
+	0& &0& &1& &0& &0&  & 1&  \\
+	 &1&0& & &0&0& & & 0& 1&  \\
+	 & & &0&1&0&0& & &  &  & 1\\
+	 & & & & & & &0&0& 0& 1& 1\\ 
+	\hline
+	0&1&0&0&1&0&0&0&0& 0& 1& 1\\
+	\endhead
+	\bottomrule
+\end{longtable}
+
+$010010000011_{2} = 483_{16}$
+
+\subsection{1b) Latin-1 'F'}\label{a-14}
+
+'A' = $65_{10}$ 'F'=$70_{10} = 64 + 4 + 2 = 01000110_{2}$\\
+
+\begin{longtable}[l]{@{}llllllllllll@{}}
+	\toprule
+	 & &0& &1&0&0& &0& 1& 1& 0\\
+	1&2&3&4&5&6&7&8&9&10&11&12\\
+	\midrule
+	0& &0& &1& &0& &0&  & 1&  \\
+	 &0&0& & &0&0& & & 1& 1&  \\
+	 & & &1&1&0&0& & &  &  & 0\\
+	 & & & & & & &0&0& 1& 1& 0\\ 
+	\hline
+	0&0&0&1&1&0&0&0&0& 1& 1&0\\
+	\endhead
+	\bottomrule
+\end{longtable}
+
+$000110000110_{2} = 186_{16}$
+
+\pagebreak
+
+\subsection{2a) a) 100010010001 }\label{b-1332}
+
+\begin{longtable}[l]{@{}llllllllllll@{}}
+	\toprule
+	1&0&0&0&1&0&0&1&0& 0& 0&1\\
+	1&2&3&4&5&6&7&8&9&10&11&12\\
+	\endhead
+	\midrule
+	& &0& &1&0&0& &0& 0& 0&1\\
+	\hline
+	\multicolumn{4}{@{}r@{}}{01000001}\\
+	\bottomrule
+\end{longtable}
+$01000001_{2} = 65_{10} = $'A'
+
+\subsection{2b) 010110110010 }\label{b-1332}
+
+\begin{longtable}[l]{@{}llllllllllll@{}}
+	\toprule
+	0&1&0&1&1&0&1&1&0& 0& 1&0\\
+	1&2&3&4&5&6&7&8&9&10&11&12\\
+	\endhead
+	\midrule
+	1& &0& &1& &1& &0&  & 1&  \\
+	 &1&0& & &0&1& & & 0& 1&  \\
+	 & & &1&1&0&1& & &  &  &0\\
+	 & & & & & & &1&0& 0& 1&0\\
+	 & &0& &1&0&0& &0& 0& 1&0\\
+	\hline
+	\multicolumn{4}{@{}r@{}}{01000010}\\
+	\bottomrule
+\end{longtable}
+$01000010_{2} = 66_{10} = $'B'
+
+\pagebreak
+
+\subsection{3a) 0}
+
+\begin{longtable}[l]{@{}lllllll@{}}
+	\toprule
+	 & &0& &0&0&0\\
+	1&2&3&4&5&6&7\\
+	\endhead
+	\midrule
+	0& &0& &0& &0\\
+	 &0&0& & &0&0\\
+	 & & &0&0&0&0\\
+	\hline
+	0&0&0&0&0&0&0\\
+	\bottomrule
+\end{longtable}
+
+\subsection{3a) 1}
+
+\begin{longtable}[l]{@{}lllllll@{}}
+	\toprule
+	 & &0& &0&0&1\\
+	1&2&3&4&5&6&7\\
+	\endhead
+	\midrule
+	1& &0& &0& &1\\
+	 &1&0& & &0&1\\
+	 & & &1&0&0&1\\
+	\hline
+	1&1&0&1&0&0&1\\
+	\bottomrule
+\end{longtable}
+
+\subsection{3a) 2}
+
+\begin{longtable}[l]{@{}lllllll@{}}
+	\toprule
+	 & &0& &0&1&0\\
+	1&2&3&4&5&6&7\\
+	\endhead
+	\midrule
+	0& &0& &0& &0\\
+	 &1&0& & &1&0\\
+	 & & &1&0&1&0\\
+	\hline
+	0&1&0&1&0&1&0\\
+	\bottomrule
+\end{longtable}
+
+\subsection{3a) 3}
+
+\begin{longtable}[l]{@{}lllllll@{}}
+	\toprule
+	 & &0& &0&1&1\\
+	1&2&3&4&5&6&7\\
+	\endhead
+	\midrule
+	1& &0& &0& &1\\
+	 &0&0& & &1&1\\
+	 & & &0&0&1&1\\
+	\hline
+	1&0&0&0&0&1&1\\
+	\bottomrule
+\end{longtable}
+
+\pagebreak
+
+\subsection{3a) 4}
+
+\begin{longtable}[l]{@{}lllllll@{}}
+	\toprule
+	 & &0& &1&0&0\\
+	1&2&3&4&5&6&7\\
+	\endhead
+	\midrule
+	1& &0& &1& &0\\
+	 &0&0& & &0&0\\
+	 & & &1&1&0&0\\
+	\hline
+	1&0&0&1&1&0&0\\
+	\bottomrule
+\end{longtable}
+
+\subsection{3a) 5}
+
+\begin{longtable}[l]{@{}lllllll@{}}
+	\toprule
+	 & &0& &1&0&1\\
+	1&2&3&4&5&6&7\\
+	\endhead
+	\midrule
+	0& &0& &1& &1\\
+	 &1&0& & &0&1\\
+	 & & &0&1&0&1\\
+	\hline
+	0&1&0&0&1&0&1\\
+	\bottomrule
+\end{longtable}
+
+\subsection{3a) 6}
+
+\begin{longtable}[l]{@{}lllllll@{}}
+	\toprule
+	 & &0& &1&1&0\\
+	1&2&3&4&5&6&7\\
+	\endhead
+	\midrule
+	1& &0& &1& &0\\
+	 &1&0& & &1&0\\
+	 & & &0&1&1&0\\
+	\hline
+	1&1&0&0&1&1&0\\
+	\bottomrule
+\end{longtable}
+
+\subsection{3a) 7}
+
+\begin{longtable}[l]{@{}lllllll@{}}
+	\toprule
+	 & &0& &1&1&1\\
+	1&2&3&4&5&6&7\\
+	\endhead
+	\midrule
+	0& &0& &1& &1\\
+	 &0&0& & &1&1\\
+	 & & &1&1&1&1\\
+	\hline
+	0&0&0&1&1&1&1\\
+	\bottomrule
+\end{longtable}
+
+\pagebreak
+
+\subsection{3a) 8}
+
+\begin{longtable}[l]{@{}lllllll@{}}
+	\toprule
+	 & &1& &0&0&0\\
+	1&2&3&4&5&6&7\\
+	\endhead
+	\midrule
+	1& &1& &0& &0\\
+	 &1&1& & &0&0\\
+	 & & &0&0&0&0\\
+	\hline
+	1&1&1&0&0&0&0\\
+	\bottomrule
+\end{longtable}
+
+\subsection{3a) 9}
+
+\begin{longtable}[l]{@{}lllllll@{}}
+	\toprule
+	 & &1& &0&0&1\\
+	1&2&3&4&5&6&7\\
+	\endhead
+	\midrule
+	0& &1& &0& &1\\
+	 &0&1& & &0&1\\
+	 & & &1&0&0&1\\
+	\hline
+	0&0&1&1&0&0&1\\
+	\bottomrule
+\end{longtable}
+
+\subsection{3a) 10}
+
+\begin{longtable}[l]{@{}lllllll@{}}
+	\toprule
+	 & &1& &0&1&0\\
+	1&2&3&4&5&6&7\\
+	\endhead
+	\midrule
+	1& &1& &0& &0\\
+	 &0&1& & &1&0\\
+	 & & &1&0&1&0\\
+	\hline
+	1&0&1&0&0&1&0\\
+	\bottomrule
+\end{longtable}
+
+\subsection{3a) 11}
+
+\begin{longtable}[l]{@{}lllllll@{}}
+	\toprule
+	 & &1& &0&1&1\\
+	1&2&3&4&5&6&7\\
+	\endhead
+	\midrule
+	0& &1& &0& &1\\
+	 &1&1& & &1&1\\
+	 & & &0&0&1&1\\
+	\hline
+	0&1&1&0&0&1&1\\
+	\bottomrule
+\end{longtable}
+
+\pagebreak
+
+\subsection{3a) 12}
+
+\begin{longtable}[l]{@{}lllllll@{}}
+	\toprule
+	 & &1& &1&0&0\\
+	1&2&3&4&5&6&7\\
+	\endhead
+	\midrule
+	0& &1& &1& &0\\
+	 &1&1& & &0&0\\
+	 & & &1&1&0&0\\
+	\hline
+	0&1&1&1&1&0&0\\
+	\bottomrule
+\end{longtable}
+
+\subsection{3a) 13}
+
+\begin{longtable}[l]{@{}lllllll@{}}
+	\toprule
+	 & &1& &1&0&1\\
+	1&2&3&4&5&6&7\\
+	\endhead
+	\midrule
+	1& &1& &1& &1\\
+	 &0&1& & &0&1\\
+	 & & &0&1&0&1\\
+	\hline
+	1&0&1&0&1&0&1\\
+	\bottomrule
+\end{longtable}
+
+\subsection{3a) 14}
+
+\begin{longtable}[l]{@{}lllllll@{}}
+	\toprule
+	 & &1& &1&1&0\\
+	1&2&3&4&5&6&7\\
+	\endhead
+	\midrule
+	0& &1& &1& &0\\
+	 &0&1& & &1&0\\
+	 & & &0&1&1&0\\
+	\hline
+	0&0&1&0&1&1&0\\
+	\bottomrule
+\end{longtable}
+
+\subsection{3a) 15}
+
+\begin{longtable}[l]{@{}lllllll@{}}
+	\toprule
+	 & &1& &1&1&1\\
+	1&2&3&4&5&6&7\\
+	\endhead
+	\midrule
+	1& &1& &1& &1\\
+	 &1&1& & &1&1\\
+	 & & &1&1&1&1\\
+	\hline
+	1&1&1&1&1&1&1\\
+	\bottomrule
+\end{longtable}
+
+\subsection{4)}\label{Aufgabe 5}
+
+\begin{longtable}[l]{@{}r|lllll@{}}
+	\toprule
+	Wert&8&4&2&1&P\\
+	\endhead
+	\midrule
+	00&0&0&0&0&0\\
+	01&0&0&0&1&1\\
+	02&0&0&1&0&1\\
+	03&0&0&1&1&0\\
+	04&0&1&0&0&1\\
+	05&0&1&0&1&0\\
+	06&0&1&1&0&0\\
+	07&0&1&1&1&1\\
+	08&1&0&0&0&1\\
+	09&1&0&0&1&0\\
+	10&1&0&1&0&0\\
+	11&1&0&1&1&1\\
+	12&1&1&0&0&0\\
+	13&1&1&0&1&1\\
+	14&1&1&1&0&1\\
+	15&1&1&1&1&0\\
+	\bottomrule
+\end{longtable}
+
+\subsection{5)}\label{5}
+
+CRC-CCITT(XModem) = 0x5583\\
+Polynom = 0x1021
+
+\subsection{6)}\label{6}
+
+\end{document}
