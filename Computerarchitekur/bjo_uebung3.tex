@@ -59,7 +59,7 @@ Barnabas Jovanovics
 	0& &0& &1& &0& &0&  & 1&  \\
 	 &1&0& & &0&0& & & 0& 1&  \\
 	 & & &0&1&0&0& & &  &  & 1\\
-	 & & & & & & &0&0& 0& 1& 1\\ 
+	 & & & & & & &0&0& 0& 1& 1\\
 	\hline
 	0&1&0&0&1&0&0&0&0& 0& 1& 1\\
 	\endhead
@@ -80,7 +80,7 @@ $010010000011_{2} = 483_{16}$
 	0& &0& &1& &0& &0&  & 1&  \\
 	 &0&0& & &0&0& & & 1& 1&  \\
 	 & & &1&1&0&0& & &  &  & 0\\
-	 & & & & & & &0&0& 1& 1& 0\\ 
+	 & & & & & & &0&0& 1& 1& 0\\
 	\hline
 	0&0&0&1&1&0&0&0&0& 1& 1&0\\
 	\endhead
@@ -389,6 +389,8 @@ $01000010_{2} = 66_{10} = $'B'
 	\bottomrule
 \end{longtable}
 
+\pagebreak
+
 \subsection{4)}\label{Aufgabe 5}
 
 \begin{longtable}[l]{@{}r|lllll@{}}
@@ -417,9 +419,12 @@ $01000010_{2} = 66_{10} = $'B'
 
 \subsection{5)}\label{5}
 
-CRC-CCITT(XModem) = 0x5583\\
-Polynom = 0x1021
+CRC-CCITT(XModem) = 0x0D70\\
+Polynom = 0x1021 x16 + x12 + x5 + 1
 
 \subsection{6)}\label{6}
+
+Die einzelnen Zeichen als 8 Bit ASCII + 4 Bit HammingCode. Dann Mindestens 100 Zeichen untereinander stellen und Spaltenweise
+anstelle von Reihenweise verschicken
 
 \end{document}
